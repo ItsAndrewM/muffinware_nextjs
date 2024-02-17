@@ -1,14 +1,11 @@
 import Link from "next/link";
+import Header from "./header";
 
 const Layout = ({ children }) => {
 	return (
 		<>
-			<header>
-				<nav>
-					<Link href={"/"}>Home</Link>
-				</nav>
-			</header>
-			<main>{children}</main>
+			{/* <Header />
+			<main className="flex-1">{children}</main>
 			<footer>
 				<nav>
 					<ul>
@@ -17,7 +14,7 @@ const Layout = ({ children }) => {
 						</li>
 					</ul>
 				</nav>
-			</footer>
+			</footer> */}
 		</>
 	);
 };
