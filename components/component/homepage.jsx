@@ -67,8 +67,8 @@ export function Homepage() {
 							<div className="space-y-2">
 								<h3 className="text-2xl font-bold">Web Design</h3>
 								<p className="text-gray-500 dark:text-gray-400">
-									Let us create a stunning website that captures your brand's
-									style and engages your visitors.
+									Let us create a stunning website that captures your
+									brand&apos;s style and engages your visitors.
 								</p>
 							</div>
 						</div>
@@ -120,7 +120,7 @@ export function Homepage() {
 							Trusted by our Clients
 						</h3>
 						<p className="text-gray-500 dark:text-gray-400">
-							Our clients love the websites we create. Here's what they have to
+							Our clients love the websites we create. Here&apos;s what they have to
 							say:
 						</p>
 					</div>
