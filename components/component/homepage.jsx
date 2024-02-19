@@ -20,7 +20,20 @@ import LayoutIcon from "../icons/layoutIcon";
 
 export function Homepage() {
 	return (
-		<div key="1" className="flex flex-col min-h-[100dvh]">
+		<>
+			<section
+				className="text-center py-32 bg-cover bg-center lg:h-screen h-svh w-screen flex flex-col items-center justify-center"
+				style={{
+					backgroundImage: "url('/assets/home/forest.avif')",
+				}}
+			>
+				<h1 className="text-6xl font-bold leading-tight uppercase">
+					Elevate Your Online Presence with MuffinWare
+				</h1>
+				<p className="mt-4 text-lg capitalize">
+					Your Premier Web Design & Development Partner
+				</p>
+			</section>
 			<section className="w-full py-6 sm:py-12 md:py-24 lg:py-32 xl:py-48">
 				<div className="container px-4 md:px-6">
 					<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
@@ -280,6 +293,6 @@ export function Homepage() {
 					</div>
 				</div>
 			</section>
-		</div>
+		</>
 	);
 }
